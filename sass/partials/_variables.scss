@@ -1,0 +1,30 @@
+$backdrop__filter--privacy: blur(10px) contrast(75%);
+$bg__blend--type: multiply;
+$bg__classes:
+    "error",
+    "comingsoon",
+    "privacy";
+$bg__comingsoon-img: "../img/ops.jpg";
+$bg__error-img: "../img/ops.jpg";
+$bg__privacy-img: "../img/privacy.jpg";
+$bg__aoa:
+    $bg__error-img,
+    $bg__comingsoon-img,
+    $bg__privacy-img;
+$body__min-height: 100%;
+$color__bg-1: #289ffd;
+$color__dark: #333;
+$color__dark-blue: #191970;
+$color__light-green: #32d483;
+$color__red: #ff565c;
+$color__transparent: transparent;
+$color__white: #fff;
+$font-logo__family: 'Work Sans';
+$font-logo__size: 32px;
+$font-main__family: 'Work Sans';
+$font-main__size: 16px;
+$privacy-container__border: 1px solid $color__bg-1;
+$privacy-container__margin: 50px;
+$privacy-container__radius: 20px;
+$section__min-height: 100vh;
+$text__shadow: 0 0 3px $color__dark;
